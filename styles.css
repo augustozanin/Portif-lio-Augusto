@@ -26,7 +26,7 @@ h2 {
 body {
     margin: 0;
     color: #fff;
-    background: linear-gradient(to right, #3530BF 65%,#3730F2 65%);
+    background: linear-gradient(to right, #3530BF 65%, #3730F2 65%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,11 +42,12 @@ main {
 nav a {
     text-decoration: none;
 }
+
 .foto {
     width: 300px;
     height: auto;
     margin: 1px, solid, black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px black;
     /* Adiciona uma sombra ao redor da imagem */
 
 }
@@ -59,14 +60,16 @@ nav a {
     align-items: center;
 
 }
-.secundaria{
+
+.secundaria {
     display: flex;
     justify-content: center;
 }
-.itens{
+
+.itens {
     font-size: 25px;
     text-align: center;
-    padding:  15px;
+    padding: 15px;
 }
 
 footer {
@@ -77,45 +80,55 @@ footer {
     width: 100%;
 }
 
-.divFerramentas{
+.divFerramentas {
     border-radius: 20px;
     margin-top: 250px;
     background-color: #111;
+    box-shadow: 10px 5px 5px black;
 }
-.divExperiencia{
-    border-radius: 20px;
-    margin-top: 250px;
-    background-color: #111;
-    margin-bottom: 50px;
-}
-.divSobremim{
+
+.divExperiencia {
     border-radius: 20px;
     margin-top: 250px;
     background-color: #111;
     margin-bottom: 50px;
+    box-shadow: 10px 5px 5px black;
 }
-.divContatos{
+
+.divSobremim {
+    border-radius: 20px;
+    margin-top: 250px;
+    background-color: #111;
+    margin-bottom: 50px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.divContatos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.imgpadrao{
+
+.imgpadrao {
     align-items: center;
     max-width: 100px;
     height: auto;
 }
-.tituloh2{
+
+.tituloh2 {
     padding-top: 10px;
     text-align: center;
     padding-bottom: 35px;
     font-size: 25px;
 }
-.tituloh2Contatos{
+
+.tituloh2Contatos {
     text-align: center;
     padding-bottom: 10px;
     font-size: 20px;
 }
-.texto{
+
+.texto {
     padding: 35px;
     font-size: 20px;
     letter-spacing: 0.5px;
